@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 5 #94364</title>
+</head>
+<body>
+    <script>
+        var num1 = Number(prompt('Digite o seu primeiro valor: '));
+        var num2 = Number(prompt('Digite o segundo valor: '));
+        var op = prompt('Digite o simbolo da operação que deseja. + para soma, - para subtração, x para multiplicação e / para divisão.')
+
+        if (op == '+') {
+            var soma = (num1 + num2);
+            document.writeln(`O resultado da soma é: ${soma}`);
+        } else if (op == '-') {
+            var subtração = (num1 - num2);
+            document.writeln(`O resultado da subtração é: ${subtração}`);
+        } else if (op == 'x') {
+            var multiplicação = (num1 * num2);
+            document.writeln(`O resultado da multiplicação é: ${multiplicação}`);
+            
+        } else if (op == '/') {
+            var divisao = (num1 / num2);
+            var resto = (num1 % num2);
+            document.writeln(`O resultado da divisão é: ${divisao}. E o resto da divisão é: ${resto}`);
+
+        } else {
+            document.writeln('Operador inválido, tente novamente!')
+        }
+      
+
+        
+    
+        
+    </script>
+
+</body>
+</html>
